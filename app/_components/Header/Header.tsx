@@ -14,7 +14,7 @@ const Header = () => {
            <nav className="bg-white shadow-lg p-4 fixed top-0 left-0 right-0 w-full">
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="text-gray-800 text-lg font-bold">
-                        Byld
+                        CurdApp
                     </div>
                     <ul className="flex space-x-4">
                         <li className={isActive("/")}>
