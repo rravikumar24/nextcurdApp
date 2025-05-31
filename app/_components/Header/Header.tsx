@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const Header = () => {
 
+   
     const pathname = usePathname();
     const isActive = (path: string) => {
         return pathname === path ? "text-blue-600 font-bold" : "text-gray-800 hover:text-blue-600";
